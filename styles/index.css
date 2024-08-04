@@ -1,0 +1,27 @@
+.cake-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(237, 237, 237);
+}
+
+.cake-properties {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  background-color: aliceblue;
+  margin-left: 20px;
+}
+
+.p-cake-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.p-cake-price {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.p-cake-weight {
+  font-size: 20px;
+  font-weight: 500;
+}
